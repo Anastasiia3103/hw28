@@ -36,8 +36,10 @@ public class FileLoggerConfiguration {
     }
 
     public void setLogFile (File logFile) {
+        this.logFile = logFile;
     }
 
     public void setMaxFileSize (long l) {
+        this.maxFileSize = l;
     }
 }
